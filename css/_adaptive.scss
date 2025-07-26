@@ -25,6 +25,10 @@
   .navbar_mobile .search-icon {
     display: none;
   }
+
+  .review {
+    margin-right: 64px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -61,8 +65,9 @@
     margin-top: 0;
     width: 100%;
     border-radius: 0;
-    width: calc(100% + 40px);
+    width: calc(100% + 30px);
     margin-left: -30px;
+    margin-right: 64px;
   }
 
   .courses h3 {
@@ -99,7 +104,12 @@
     flex-direction: column;
   }
 
+}
 
+@media (max-width: 570px) {
+  .hero__search-wrapper button {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {

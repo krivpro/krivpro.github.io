@@ -1,12 +1,12 @@
 $Text-Body: #808080;
 $Text-In-Field: #CCCCCC;
 $Text-Tittle: #1C3554;
-$Primary-Pink: #F72585;
 $Other-white: #FFFFFF;
 $Other-Navy: #021934;
-$primary-80-pink: #FA6BAC;
 $Other-grey: #AAAAAA;
 $Other-Blue: #4586D6;
+$Primary-Pink: #F72585;
+$primary-80-pink: #FA6BAC;
 
 * {
     margin: 0;
@@ -19,6 +19,7 @@ body, input, button {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -339,7 +340,7 @@ h3 {
         flex-wrap: wrap;
         gap: 26px 16px;
         margin-bottom: 60px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     &__btn_main {
