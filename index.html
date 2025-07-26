@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header container">
+        <img src="img/logo.svg" alt="logo" class="header__logo logo">
+        <input type="text" class="header__search search" placeholder="Search bar">
+        <nav class="header__navbar navbar">
+            <a href="#" class="navbar__link">
+                Become an Mentor
+            </a>
+            <button class="btn btn_second">
+                Login
+            </button>
+            <button class="btn btn_first">
+                Sign Up
+            </button>
+        </nav>
+        <div class="header__navbar navbar_mobile">
+            <a href="#" class="navbar__link_mobile search-icon">
+                <img src="img/hero-search-icon.svg" alt="search icon">
+            </a>
+            <a href="#" class="navbar__link_mobile">
+                <img src="img/menu-icon.svg" alt="menu icon">
+            </a>
+        </div>
+    </header>
+    <section class="hero container">
+        <div class="hero__media">
+            <div class="hero__bg-accent hero__media-content"></div>
+            <img src="img/image-place-holder.png" alt="image place holder" class="hero__main-img hero__media-content">
+            <img src="img/bell-icon.svg" alt="bell icon" class="hero__bell-icon hero__media-content">
+            <img src="img/verification-icon.svg" alt="verification icon" class="hero__verification-icon hero__media-content">
+            <img src="img/love-icon.svg" alt="love icon" class="hero__love-icon hero__media-content">
+        </div>
+        <div class="hero__content">
+            <h2>
+                Find the Best Courses and Amazing Mentor
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus 
+            </p>
+            <form class="hero__search-wrapper">
+                <input type="text" class="hero__search search" placeholder="Type in the course you want to learn">
+                <button type="submit" class="hero__btn btn btn_first">
+                    Search
+                </button>
+            </form>
+            <div class="hero__advantages advantages">
+                <div class="hero__advantage advantage">
+                    <img src="img/access-alarm.svg" alt="access alarm" class="advantage__img">
+                    <h6 class="advantage__text">
+                        Life Time Acces
+                    </h6>
+                </div>
+                <div class="hero__advantage advantage">
+                    <img src="img/user.svg" alt="user" class="advantage__img">
+                    <h6 class="advantage__text">
+                        Expert Mentor
+                    </h6>
+                </div>
+                <div class="hero__advantage advantage">
+                    <img src="img/video-library.svg" alt="video library" class="advantage__img">
+                    <h6 class="advantage__text">
+                        100K+ Courses
+                    </h6>
+                </div>    
+            </div> 
+        </div>
+        <div class="hero__review review">
+            <h5 class="review__titlle">
+                500+
+            </h5>
+            <h6 class="review__text">
+                Total Review
+            </h6>
+            <div class="review__rating rating">
+                <img src="img/star.svg" alt="review star rating" class="review__star">
+                <img src="img/star.svg" alt="review star rating" class="review__star">
+                <img src="img/star.svg" alt="review star rating" class="review__star">
+                <img src="img/star.svg" alt="review star rating" class="review__star">
+                <img src="img/star.svg" alt="review star rating" class="review__star">
+            </div>
+        </div>
+    </section>
+    <section class="courses container">
+        <h3>
+            Trending Courses
+        </h3>
+        <nav class="courses__chooice">
+            <button class="courses__chooice-btn btn btn_first">
+                All
+            </button>
+            <button class="courses__chooice-btn btn btn_first courses__chooice-btn_noactive">
+                Business
+            </button>
+            <button class="courses__chooice-btn btn btn_first courses__chooice-btn_noactive">
+                Art & Design
+            </button>
+            <button class="courses__chooice-btn btn btn_first courses__chooice-btn_noactive">
+                Development
+            </button>
+            <button class="courses__chooice-btn btn btn_first courses__chooice-btn_noactive">
+                Marketing
+            </button>
+        </nav>
+        <div class="courses__cards">
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    UI/UX Design
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    Interpersonal skills - work better with others!
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $384
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    Web Developer
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    How to become an Expert Web Developer
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $735
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    UX Research
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    User Experience Design Essentials
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $826
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    3D Design
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    Creating 3D Modelling in <br>Blender 
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $710
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    Public Speaking
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    Interpersonal skills - work better with others!
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $384
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    UI/UX Design
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    How to become an Expert Web Developer
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $758
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    3D Design
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    Creating 3D Modelling in <br>Blender 
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $973
+                    </h5>
+                </div>
+            </article>
+            <article class="courses__card card">
+                <button class="btn card__btn">
+                    UI/UX Design
+                </button>
+                <img src="img/card-img.jpg" alt="card img" class="card__img">
+                <h6 class="card__titlle">
+                    Interpersonal skills - work better with others!
+                </h6>
+                <p class="card__text">
+                    Tanah Air Team
+                </p>
+                <div class="card__rating raiting">
+                    <div class="card__stars">
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                        <a href="#">
+                            <img src="img/star2.svg" alt="star-2">
+                        </a>
+                    </div>
+                    <p class="card__rating-value">
+                        (2078)
+                    </p>
+                </div>
+                <div class="card__prices">
+                    <p class="card__sale">
+                        $640
+                    </p>
+                    <h5 class="card__price">
+                        $273
+                    </h5>
+                </div>
+            </article>
+        </div>
+        <button class="courses__btn_main btn">
+            More Courses
+        </button>
+    </section>
+</body>
+</html>
