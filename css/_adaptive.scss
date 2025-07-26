@@ -65,6 +65,7 @@
   .review {
     margin-top: 0;
     width: 100%;
+    margin-right: 0;
     margin-bottom: 20px;
   }
 
@@ -114,5 +115,9 @@
 
   h2 {
     font-size: 36px;
+  }
+
+  .card__btn {
+    bottom: 367px;
   }
 }
